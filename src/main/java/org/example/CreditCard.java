@@ -69,9 +69,9 @@ public class CreditCard {
         if (res.equals("true"))
         {
             LOGGER.info("Creating new Credit card...");
-            LOGGER.info("Card Holder name :"+clone.holdername);
-            LOGGER.info("Card Number:"+cno);
-            LOGGER.info("Card Expiration date:"+clone.expirationdate);
+            LOGGER.info("Card Holder name :{}",clone.holdername);
+            LOGGER.info("Card Number:{}",cno);
+            LOGGER.info("Card Expiration date:{}",clone.expirationdate);
         }
         else
         {
