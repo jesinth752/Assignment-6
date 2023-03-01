@@ -41,10 +41,13 @@ public class CreditCard {
 
         if (res.equals("true"))
         {
+            String cardname="Card Holder name :"+clone.holdername;
+            String cardnum="Card Number:"+cno;
+            String expdate="Card Expiration date:"+clone.expirationdate;
             LOGGER.info("Creating new Credit card...");
-            LOGGER.info("Card Holder name :"+clone.holdername);
-            LOGGER.info("Card Number:"+cno);
-            LOGGER.info("Card Expiration date:"+clone.expirationdate);
+            LOGGER.info(cardname);
+            LOGGER.info(cardnum);
+            LOGGER.info(expdate);
         }
         else
         {
